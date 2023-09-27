@@ -1,8 +1,9 @@
-import { Header } from "./components/Header"
-import { Post } from "./Post"
-import "./global.css"
-import styles from "./App.module.css"
-import { Sidebar } from "./components/Sidebar"
+import { Header } from "./components/Header";
+import { Post } from "./components/Post";
+import { Sidebar } from "./components/Sidebar";
+
+import "./global.css";
+import styles from "./App.module.css";
 
 export function App() {
 
@@ -18,8 +19,8 @@ export function App() {
             content="A big text here to explain something about react" 
           />
           <Post 
-            author="Marcelo Junior" 
-            content="A big text here to explain something about biology" 
+            author="Dominique Ithina" 
+            content="A big text here to explain something about react" 
           />
         </main>
       </div>
